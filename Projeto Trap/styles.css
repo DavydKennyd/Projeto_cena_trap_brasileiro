@@ -1,23 +1,29 @@
 
 body{
-    background-color: #b6a4a4;
+    background-color: #d79fed;
     margin: 0px;
     padding: 0px;
 }
-.retangulo{
+.retangulo {
     background-color: rgb(97, 74, 105);
-    height:85px;
+    height: 85px;
     width: 100%;
-    background: linear-gradient(90deg, rgba(23, 13, 34, 0.925),hwb(266 1% 63% / 0.411));
+    background: linear-gradient(90deg, rgba(23, 13, 34, 0.925), hwb(266 1% 63% / 0.411));
     box-shadow: 0px 4px 6px rgba(28, 19, 32, 0.658);
-    margin-top: 0px;
+    margin-top: 2px; 
+    margin-bottom: 20px; 
     color: aliceblue;
-    position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size:x-large;
+    font-size: x-large;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
+
 .text {
     background-color: rgb(97, 74, 105);
     color: aliceblue;
@@ -26,27 +32,27 @@ body{
     background: linear-gradient(90deg, rgba(21, 0, 42, 0.925), hwb(268 5% 80% / 0.686));
     box-shadow: 0px 4px 6px rgba(20, 3, 29, 0.702);
     font-size: 24px;
-    align-items: center; 
-    justify-content: flex-end;
-    text-align: center; 
+    align-items: center;
+    text-align: center;
     white-space: pre-line;
-    margin: 73px auto; 
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column; /* Para centralizar verticalmente o texto */
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 
-h1{
+
+.into{
     font-size: larger;
+    color:aliceblue;
 }
-
-
-
-
-
-
-
-
-
+h1{
+    text-align: center;
+    color:black;
+    box-shadow: inset;
+}
 .conteiner{
     max-height: 100vh;
     overflow-y: auto;
@@ -67,13 +73,74 @@ a {
     position: relative;
     
 }
-.rede:hover{
-    background-color: aliceblue;
-}
+
 .nome_botao{
     display: flex;
     align-items:center; 
     justify-content:center;
     text-decoration: none; 
     font-size:large;
+}
+.dream{
+    display: flex;
+}
+.conteudo{
+    flex: 1;
+    padding: 20px;
+}
+.dex {
+    flex: 1;
+    padding: 20px;
+    margin: 0px;
+    
+}
+.dex img{
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.9);
+    clip-path: polygon(16% 0, 86% 0, 100% 50%, 91% 100%, 11% 99%, 0% 50%);
+}
+.conteudo p{
+    font-size:25px;
+}
+.conteudo h1{
+    font-size: 35px;
+}
+.retangulo h1{
+    font-size: 35px;
+    color: #ffffff;
+}
+.title{
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+figcaption{
+    text-align:center;
+    opacity: 0.6;
+}
+.conexoes{
+    display: flex;
+}
+.tue img {
+    max-width: 100%;
+    height: auto;
+    clip-path: polygon(16% 0, 86% 0, 100% 50%, 91% 100%, 11% 99%, 0% 50%);
+    width: 430px;
+    height: 500px;
+    overflow: hidden;
+    transition: transform 0.3s;;
+}
+.tue:hover {
+    transform: translateX(20px);
+}
+
+
+
+
+
+.texto {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+.texto p{
+    font-size: 24px;
 }
