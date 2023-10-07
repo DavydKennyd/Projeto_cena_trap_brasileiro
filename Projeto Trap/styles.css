@@ -1,14 +1,14 @@
 
 body{
-    background-color: #d79fed;
+    background-color: #1b1b1b;
     margin: 0px;
     padding: 0px;
 }
 .retangulo {
-    background-color: rgb(97, 74, 105);
+    background-color:#abea24;
     height: 85px;
     width: 100%;
-    background: linear-gradient(90deg, rgba(23, 13, 34, 0.925), hwb(266 1% 63% / 0.411));
+    background: #aeff00;
     box-shadow: 0px 4px 6px rgba(28, 19, 32, 0.658);
     margin-top: 2px; 
     margin-bottom: 20px; 
@@ -25,11 +25,10 @@ body{
 }
 
 .text {
-    background-color: rgb(97, 74, 105);
+    background-color: #99d517;
     color: aliceblue;
     height: 410px;
     width: 1000px;
-    background: linear-gradient(90deg, rgba(21, 0, 42, 0.925), hwb(268 5% 80% / 0.686));
     box-shadow: 0px 4px 6px rgba(20, 3, 29, 0.702);
     font-size: 24px;
     align-items: center;
@@ -37,9 +36,10 @@ body{
     white-space: pre-line;
     margin: 100px auto;
     display: flex;
-    flex-direction: column; /* Para centralizar verticalmente o texto */
+    flex-direction: column; 
     justify-content: center;
     flex-wrap: wrap;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
 }
 
 
@@ -47,10 +47,11 @@ body{
 .into{
     font-size: larger;
     color:aliceblue;
+    
 }
 h1{
     text-align: center;
-    color:black;
+    color:rgb(255, 255, 255);
     box-shadow: inset;
 }
 .conteiner{
@@ -64,7 +65,7 @@ h1{
     border: none;
     box-shadow: 0px 4px 6px rgba(28, 19, 32, 0.658);
     font-size:large;
-    background: linear-gradient(90deg, rgba(160, 88, 238, 0.925), hwb(266 1% 63% / 0.411));
+    background: #abea24;
     color:aliceblue;
     cursor: pointer;
 }
@@ -100,6 +101,7 @@ a {
 }
 .conteudo p{
     font-size:25px;
+    color:#ffffff;
 }
 .conteudo h1{
     font-size: 35px;
@@ -108,8 +110,11 @@ a {
     font-size: 35px;
     color: #ffffff;
 }
+.conteudo h2{
+    color: rgb(255, 255, 255);
+}
 .title{
-    font-size: 40px;
+    font-size: 35px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 figcaption{
@@ -131,11 +136,6 @@ figcaption{
 .tue:hover {
     transform: translateX(20px);
 }
-
-
-
-
-
 .texto {
     flex: 1;
     padding: 20px;
@@ -143,4 +143,5 @@ figcaption{
 }
 .texto p{
     font-size: 24px;
+    color:#ffffff ;
 }
