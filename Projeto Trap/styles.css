@@ -1,0 +1,79 @@
+
+body{
+    background-color: #b6a4a4;
+    margin: 0px;
+    padding: 0px;
+}
+.retangulo{
+    background-color: rgb(97, 74, 105);
+    height:85px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(23, 13, 34, 0.925),hwb(266 1% 63% / 0.411));
+    box-shadow: 0px 4px 6px rgba(28, 19, 32, 0.658);
+    margin-top: 0px;
+    color: aliceblue;
+    position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+}
+.text {
+    background-color: rgb(97, 74, 105);
+    color: aliceblue;
+    height: 410px;
+    width: 1000px;
+    background: linear-gradient(90deg, rgba(21, 0, 42, 0.925), hwb(268 5% 80% / 0.686));
+    box-shadow: 0px 4px 6px rgba(20, 3, 29, 0.702);
+    font-size: 24px;
+    align-items: center; 
+    justify-content: flex-end;
+    text-align: center; 
+    white-space: pre-line;
+    margin: 73px auto; 
+    flex-wrap: wrap;
+}
+
+
+h1{
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+.conteiner{
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.rede{
+    width:140px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(28, 19, 32, 0.658);
+    font-size:large;
+    background: linear-gradient(90deg, rgba(160, 88, 238, 0.925), hwb(266 1% 63% / 0.411));
+    color:aliceblue;
+    cursor: pointer;
+}
+a {
+    left: 480px;
+    position: relative;
+    
+}
+.rede:hover{
+    background-color: aliceblue;
+}
+.nome_botao{
+    display: flex;
+    align-items:center; 
+    justify-content:center;
+    text-decoration: none; 
+    font-size:large;
+}
